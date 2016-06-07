@@ -3,6 +3,8 @@
 using namespace std;
 
 
+//PT -- constructors? -4
+//PT -- Need to check that the number is even first. -1
 //This function gets input from the user and will act as the "evenNumber" variable
 int EvenNumber::getSpecificValue(int Number)
 {
