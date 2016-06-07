@@ -8,7 +8,7 @@ private: //Makes the following information private
 	int evenNumber; // This variable is for the even number that the user inputs
 
 public: //Makes the following information public
-
+	//PT -- These aren't needed at all -1
 	int NextEvenNumber; // This variable represents the even number that is after the current one
 	int PreviousEvenNumber; // This variable represents the even number that is before the current one
 
