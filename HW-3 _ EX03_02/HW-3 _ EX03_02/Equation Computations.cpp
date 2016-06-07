@@ -1,6 +1,6 @@
 #include "Quadratic Equation.h"
 
-
+//PT -- 18/20
 // This function is responsible for getting input from the user and computing teh different components of the equation
 void Qradratic::Inputs(int NewA, int NewB, int NewC)
 {
@@ -54,6 +54,7 @@ void Qradratic::Equation()
 	SecondRoot = ((Q3.getREVERSEB() - (sqrt(Q3.getDISCRIMINANT()))) / Q3.getDIVISOR()); //Computes the second root
 }
 
+//PT -- return only gives one value, not two. -2
 //Outputs both roots that were obtained from the Qradratic Equation
 double Qradratic::DisplayBothRoots()
 {
